@@ -26,7 +26,7 @@ import static com.jayway.awaitility.Awaitility.await;
  * Starts the mesos cluster. Responsible for setting up proxy and private docker registry. Once started, users can add
  * their own images to the private registry.
  */
-public class MesosCluster extends ExternalResource {
+public class MesosCluster {
     private static Logger LOGGER = Logger.getLogger(MesosCluster.class);
     private final MesosClusterConfig config;
     private MesosContainer mesosContainer;

@@ -65,7 +65,7 @@ public class MesosClusterConfig {
             return this;
         }
 
-        public Builder slaveResources(String[] slaveResources) {
+        public Builder slaveResources(String... slaveResources) {
             this.slaveResources = slaveResources;
             return this;
         }
